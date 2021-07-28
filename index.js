@@ -6,7 +6,7 @@ const morgan = require('morgan');
 
 // initialization
 const app = express();
-require('./database');//base de datos
+//require('./database');//base de datos
 
 //settings
 app.set('port', process.env.PORT || 3001);
